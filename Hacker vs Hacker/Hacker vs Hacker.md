@@ -22,7 +22,7 @@ Looking at the source code we find a code snippet for filtering uploads. The cod
 
 A change to our filename to `php-reverse-shell.pdf.php`  and upload. Still gets back the same message. Next we try opening the cvs directory. But directory listing is disabled.
 
-![cvs.png](d0e66d33-c935-4abc-9f7c-507692cd8794.png)
+![cvs.png](1cvs.png)
 
 We try fuzzing the directory for files with extension `.pdf.php` , to see if our file has been uploaded.
 
