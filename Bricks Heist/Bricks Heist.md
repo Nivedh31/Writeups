@@ -138,6 +138,7 @@ A quick online search reveals information about the transactions, including one 
 
 ![image.png](image%2011.png)
 
+
 The wallet addresses provide additional information about the individual, which leads us to discover details about their associated organization.
 
 ![image.png](image%2012.png)
